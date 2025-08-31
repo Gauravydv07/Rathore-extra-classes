@@ -100,7 +100,7 @@
 </style>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="container header-container" data-aos="fade-up">
             <a href="#" class="logo">
                 <i class="fa-brands fa-studiovinari logo-icon"></i>
@@ -121,8 +121,43 @@
                 <a href="#" class="btn btn-primary">Enroll Now</a>
             </div>
         </div>
-    </header>
+    </header>  -->
 
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex" href="#"> <i class="fa-brands fa-studiovinari logo-icon"></i>
+                <div class="logo-text">Rathore <span>Extra Classes</span></div>
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-buttons">
+
+                    <a href="#" class="btn btn-primary">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <section class="hero" id="home" data-aos="fade-up">
         <div class="container">
             <div class="row">
@@ -135,18 +170,37 @@
                 </div>
                 <div class="col-6 text-white">
                     <p class="hero-text">
-                        <b>Design your success with 100% result joining Rathore extra classes. Rathore extra classes is an
-                        innovative and dynamic classes for students who want to make their future bright, it also help
-                        students in getting good marks in board exam like 10<sup>th</sup>,12<sup>th</sup> even in school
-                        exam with great learning.Rathore extra classes work on the weak point of the students who face
-                        more difficulties while doing acadmic session.We always try to make all the chapter and concept
-                        easy so that all students may get the concept easily. <br>If you want to make your future bright
-                        with extra ordinary and dynamic learning. <br>Please join our classes.</b>
+                        <b>Design your success with 100% result joining Rathore extra classes. Rathore extra classes is
+                            an
+                            innovative and dynamic classes for students who want to make their future bright, it also
+                            help
+                            students in getting good marks in board exam like 10<sup>th</sup>,12<sup>th</sup> even in
+                            school
+                            exam with great learning.Rathore extra classes work on the weak point of the students who
+                            face
+                            more difficulties while doing acadmic session.We always try to make all the chapter and
+                            concept
+                            easy so that all students may get the concept easily. <br>If you want to make your future
+                            bright
+                            with extra ordinary and dynamic learning. <br>Please join our classes.</b>
                     </p>
-                    <div class="hero-buttons">
-                        <a href="#Courses" class="btn btn-primary">Explore Courses</a>
-                        <a href="#" class="btn btn-secondary">Visit Our Center</a>
+                    <div class="hero-explore" style="display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            justify-content: center;">
+
+                        <a href="#Courses" class="btn btn-primary" style="font-size: clamp(14px, 2vw, 20px); 
+              flex: 1 1 200px; 
+              text-align: center;">
+                            Explore Courses
+                        </a>
+
+                        <a href="#" class="btn btn-secondary" style="flex: 1 1 200px; 
+              text-align: center;">
+                            Visit Our Center
+                        </a>
                     </div>
+
                 </div>
 
             </div>
@@ -392,8 +446,8 @@
                         <div class="row justify-content-center">
 
                             <div class="col-md-4 text-center">
-                                <img src="assets\image\Gaurav.png?img=12" class="rounded-circle mb-3"
-                                    alt="Gaurav Yadav" width="80" height="80">
+                                <img src="assets\image\Gaurav.png?img=12" class="rounded-circle mb-3" alt="Gaurav Yadav"
+                                    width="80" height="80">
                                 <p>“Rathore Extra Classes helped me score <strong>95% in Class 10</strong>! The teachers
                                     explain every doubt clearly.”</p>
                                 <div class="text-warning">⭐⭐⭐⭐⭐</div>
@@ -468,12 +522,43 @@
 
 
 
-    <section id="contact" class="py-5" data-aos="fade-up">
+    <section id="contact" class="contact py-5" data-aos="fade-up">
         <div class="container">
-            <h2 class="text-center mb-4">Contact Us</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <form>
+           
+            <div class="row align-items-center">
+
+                <!-- Left Side: Image -->
+                <div class="col-md-5 mb-4 mb-md-0 text-center">
+                    <div style="position: relative; display: inline-block; width: 100%;">
+                        <!-- Background Image -->
+                        <img src="assets/image/contact.webp" alt="Contact Us" class="img-fluid rounded shadow"
+                            style="width: 100%;">
+
+                             <h2 class="text-center mb-4">Contact Us</h2>
+
+                        <!-- Overlay Content -->
+                        <div class="contact-logo">
+
+                            <a href="#" class="logo d-flex"
+                                style="display: block; margin-bottom: 10px; text-decoration: none; color: white;">
+                                <i class="fa-brands fa-studiovinari logo-icon"></i>
+                                <div class="logo-text" style="font-size: 20px; font-weight: bold;">
+                                    Rathore <span style="color: var(--coffee-gold);">Extra Classes</span>
+                                </div>
+                            </a>
+
+                            <p style="margin: 0; font-size: 14px;">
+                                <i class="fa-solid fa-location-dot"></i>
+                                H.No 229, Wazirabad, Sector-52 Gurgaon Haryana -122001
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Side: Form -->
+                <div class="col-md-7">
+                    <form class="contact-form">
                         <!-- Name -->
                         <div class="mb-3">
                             <label for="name" class="form-label">Full Name</label>
@@ -511,9 +596,10 @@
     </section>
 
 
- <a href="https://wa.me/918826947197" class="whatsapp-float" target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+
+    <a href="https://wa.me/918826947197" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!--footer-->
     <footer>
@@ -573,10 +659,10 @@
 
 
     <script src="script.js"></script>
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
